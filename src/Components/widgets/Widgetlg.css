@@ -1,0 +1,52 @@
+.widgetlg{
+    flex: 2;
+    padding: 20px;
+    box-shadow: 0 0 15px -10px rgba(0, 0, 0, 0.76);
+}
+.widgetlgTitle{
+    font-size: 22px;
+    font-weight: 600;
+}
+.widgetlgTable{
+    width: 100%;
+    border-spacing: 20px;
+}
+.widgetlgTh{
+    text-align: left;
+}
+.widgetlgUser{
+    display: flex;
+    align-items: center;
+}
+.widgetlgImg{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-right: 10px;
+}
+.widgetlgDate , .widgetlgAmount{
+    font-weight: 100;
+}
+.widgetlgButton{
+    padding: 5px 7px;
+    border: none;
+    border-radius: 10px;
+}
+
+
+
+
+.widgetlgButton.Approved{
+    color: green;
+    background-color: white;
+    
+}
+.widgetlgButton.Declined{
+    color: red;
+    background-color: white;
+}
+.widgetlgButton.Pending{
+    color: blue;
+    background-color: white;
+}

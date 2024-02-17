@@ -1,0 +1,112 @@
+.product{
+    flex: 4;
+    padding: 20px;
+}
+.productTitleContainer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.productAddButton{
+    width: 80px;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    color: white;
+    font-size: 17px;
+    background-color: rgb(32, 97, 153);
+    border-radius: 5px;
+}
+.productTop{
+    display: flex;
+    justify-content: space-between;
+}
+.productTopLeft,
+.productTopRight{
+    flex: 4;
+}
+.productTopRight{
+    padding: 20px;
+    margin: 20px;
+    box-shadow: 0 0 15px -10px rgba(0, 0, 0, 0.75);
+}
+.productInfoTop{
+    display: flex;
+    align-items: center;
+}
+.productInfoImg{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-right: 20px;
+}
+.productName{
+    font-weight: 800;
+}
+.productInfoBottom{
+    margin-top: 10px;
+}
+.productInfoItem{
+    display: flex;
+    justify-content: space-between;
+}
+.productInfoKey{
+    font-weight: 600;
+}
+.productInfoValue{
+    font-weight: 200;
+}
+.productBottom{
+    padding: 20px;
+    margin: 20px;
+    box-shadow: 0 0 15px -10px rgba(0, 0, 0, 0.75);
+}
+.productForm{
+    display: flex;
+    justify-content: space-between;
+}
+.productFormLeft{
+    display: flex;
+    flex-direction: column;
+}
+.productFormLeft > label {
+    margin-bottom: 10px;
+    color: gray;
+}
+.productFormLeft > input{
+    margin-bottom: 10px;
+    border: none;
+    padding: 5px;
+    border-bottom: 1px solid gray;
+}
+.productFormLeft > input:focus{
+    outline: none;
+}
+.productFormLeft > select {
+    margin-bottom: 10px;
+    border: 1px solid gray;
+}
+.productFormRight{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.productUploader {
+    display: flex;
+    align-items: center;
+}
+.productUploadImg{
+    width: 100px;
+    height: 100px;
+    border-radius: 10px;
+    margin-right: 20px;
+}
+.productBtn{
+    border: none;
+    padding: 5px;
+    border-radius:5px;
+    background-color: rgb(32, 97, 153);
+    color: white;
+    font-weight: 600;
+    cursor: pointer;
+}

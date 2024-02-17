@@ -1,0 +1,93 @@
+.form {
+    flex: 1;
+    padding: 15px;
+}
+
+.company-name {
+    display: flex;
+    align-items: center;
+}
+
+.newuserIcon {
+    font-size: 40px;
+    padding-right: 20px;
+}
+
+.company-name h2 {
+    color: #22223B;
+}
+
+.company-info {
+    padding-top: 15px;
+    font-size: 15px;
+}
+
+h1 {
+    color: #48487e;
+}
+
+.row {
+    display: flex;
+    width: 100%;
+    align-items: center;
+}
+
+.col1 {
+    width: 50%;
+    margin-top: 25px;
+}
+
+.col2 {
+    width: 50%;
+    margin-top: 25px;
+}
+
+.label {
+    font-weight: 700;
+}
+
+.req {
+    color: red;
+}
+
+.input {
+    width: 60%;
+    height: 30px;
+    border: 1px solid rgb(176, 176, 176);
+    border-radius: 5px;
+    margin-top: 5px;
+    font-size: 17px;
+}
+
+.select {
+    width: 40%;
+    height: 40px;
+    border: 1px solid rgb(176, 176, 176);
+    border-radius: 5px;
+    margin-top: 5px;
+    color: #22223B;
+    font-size: 17px;
+}
+
+.option {
+    color: #22223B;
+    font-size: 17px;
+}
+
+.img {
+    width: 30%;
+    border: 1px solid rgb(176, 176, 176);
+    border-radius: 5px;
+    margin-top: 5px;
+    color: #22223B;
+}
+.button{
+    margin-top: 40px;
+    width: 80px;
+    height: 35px;
+    text-align: center;
+    font-size: 17px;
+    border: 1px solid rgb(176, 176, 176);
+    background-color: #F2E9E4;
+    color: #22223B;
+}
